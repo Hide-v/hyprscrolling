@@ -1,6 +1,14 @@
-[repo]
+# Repository info
+[repository]
+name = "hyprscrolling"
+authors = ["Vaxry and community"]
 hyprland-headers = true
 
-[[plugins]]
-name = "hyprscrolling"
-build = "make"
+# Plugin info
+[hyprscrolling]
+description = "A plugin to add a scrolling layout"
+authors = ["Vaxry"]
+output = "hyprscrolling.so"
+build = [
+    "make"
+]
