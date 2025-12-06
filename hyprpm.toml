@@ -4,4 +4,3 @@ hyprland-headers = true
 [[plugins]]
 name = "hyprscrolling"
 build = "make"
-</plugin>
